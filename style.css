@@ -27,6 +27,10 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+a {
+    text-decoration: none;
+    
+}
 
 .link-main {
     text-align: right;
@@ -122,4 +126,25 @@ a:active {
     opacity: 0.5;
 }
 
+a:visited {
+    color: none;
+}
 
+.container-sobre {
+    border-radius: 50px;
+    border: 1px solid;
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.img-sobre {
+    width: 200px;
+    height: 200px;
+}
