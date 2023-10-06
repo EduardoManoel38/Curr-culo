@@ -33,6 +33,7 @@ a {
 }
 
 .link-main {
+
     text-align: right;
     margin-right: 50px;
     margin-top: 50px;
@@ -40,7 +41,7 @@ a {
     font-size: 24px;
     font-weight: 600;
     cursor: pointer;
-    color: #4f4f4f;
+    color: #1c1c1c;
 }
 
 .button-top {
@@ -62,7 +63,7 @@ a {
 }
 
 .apresentacao {
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 h1 {
@@ -93,7 +94,7 @@ img {
 
 section {
     position: absolute;
-    right: 224px;
+    right: 140px;
     bottom: 176px;
 }
 
@@ -126,8 +127,9 @@ a:active {
     opacity: 0.5;
 }
 
-a:visited {
-    color: none;
+a:hover, a:visited, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
 }
 
 .container-sobre {
@@ -142,9 +144,8 @@ a:visited {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-
-
 .img-sobre {
     width: 200px;
     height: 200px;
 }
+
